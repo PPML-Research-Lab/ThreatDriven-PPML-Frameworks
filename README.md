@@ -81,12 +81,11 @@ Pull requests are welcome for:
 To contribute:
 1. Fork this repository.  
 2. Create a branch (add-framework-xyz).  
-3. Submit a pull request with a short description.
+3. Submit a pull request with a short description
 
 ---
 
 ### 🔗 Contact
-For correspondence or collaboration:  
-📧 [insert your academic email]
+For correspondence or collaboration: 
 🌐 [LinkedIn: Syed Ahsan Ahmed](https://www.linkedin.com/in/syed-ahsan-ahmed-17475a290/)
 🌐 [LinkedIn: Mohammed Saad Shareef](https://linkedin.com/in/yourprofile)
