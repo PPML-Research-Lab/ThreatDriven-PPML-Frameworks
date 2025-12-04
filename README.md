@@ -47,19 +47,19 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-### 2️ Run the DP-SGD experiment (quick demo)
+### 2 Run the DP-SGD experiment (quick demo)
 This runs 1 epoch, 1 seed, sigma=1.0 → fast reproducibility check.
 
 python run_privacy_accounting.py --quick --out results/eps_results_demo.csv
 
-### 3️ Generate the Privacy–Utility Curve
+### 3 Generate the Privacy–Utility Curve
 python plot_epsilon_vs_accuracy.py
 
 Output saved to:
 figures/epsilon_vs_accuracy.png
 figures/epsilon_vs_accuracy.svg
 
-### 4️ Full reproduction (slower; full Appendix A)
+### 4 Full reproduction (slower; full Appendix A)
 python run_privacy_accounting.py --epochs 15 --batch 128 --out results/eps_results_final.csv
 python plot_epsilon_vs_accuracy.py
 
